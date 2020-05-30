@@ -14,7 +14,7 @@ class TodolistsController < ApplicationController
   end
 
   def show
-    @lists = List.find(params[:id])
+    @list = List.find(params[:id])
   end
   private
 
